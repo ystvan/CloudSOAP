@@ -12,32 +12,31 @@ namespace WCFServiceWebRole1
     // NOTE: In order to launch WCF Test Client for testing this service, please select StudentService.svc or StudentService.svc.cs at the Solution Explorer and start debugging.
     public class StudentService : IStudentService
     {
+        private readonly StudentModel _dbContexStudentModel = new StudentModel();
 
-        private static List<Student> students = new List<Student>();
-
-        public void AddStudent(Student student)
+        public void AddStudent(IStudent student)
         {
-            students.Add(student);
+            _dbContexStudentModel.Students.Local.Add(new Student(student));
         }
 
-        public List<Student> GetAllStudents()
+        public List<IStudent> GetAllStudents()
         {
-            return students;
+            return new List<IStudent>(_dbContexStudentModel.Students.Local);
         }
 
-        public Student FindStudent(string cpr)
+        public IStudent FindStudent(string cpr)
         {
             return students.FirstOrDefault((s) => s.CprNo == cpr);
         }
 
-        public void RemoveStudent(Student student)
+        public void RemoveStudent(IStudent student)
         {
             students.Remove(student);
         }
 
-        public void EditStudent(Student student)
+        public void EditStudent(IStudent student)
         {
-            Student s = FindStudent(student.CprNo);
+            IStudent s = FindStudent(student.CprNo);
             s.Address = student.Address;
             s.Name = student.Name;
         }

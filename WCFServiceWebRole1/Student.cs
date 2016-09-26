@@ -6,7 +6,14 @@ namespace WCFServiceWebRole1
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    public partial class Student
+    public interface IStudent
+    {
+        string CprNo { get; set; }
+        string Name { get; set; }
+        string Address { get; set; }
+    }
+
+    public partial class Student : IStudent
     {
         [Key]
         [StringLength(50)]
@@ -17,5 +24,12 @@ namespace WCFServiceWebRole1
 
         [StringLength(50)]
         public string Address { get; set; }
+
+        public Student(IStudent iStudent)
+        {
+            this.CprNo = iStudent.CprNo;
+            this.Address = iStudent.Address;
+            this.Name = iStudent.Name;
+        }
     }
 }
