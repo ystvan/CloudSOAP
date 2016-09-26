@@ -26,12 +26,12 @@ namespace WCFServiceWebRole1
 
         public IStudent FindStudent(string cpr)
         {
-            return students.FirstOrDefault((s) => s.CprNo == cpr);
+            return new Student(_dbContexStudentModel.Students.Local.FirstOrDefault((s) => s.CprNo == cpr));
         }
 
         public void RemoveStudent(IStudent student)
         {
-            students.Remove(student);
+            //_dbContexStudentModel.Students.Local.Remove(student);
         }
 
         public void EditStudent(IStudent student)
