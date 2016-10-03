@@ -58,6 +58,5 @@ C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceW
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceWebRole1\bin\ru\System.Spatial.resources.dll
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceWebRole1\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceWebRole1\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.csprojResolveAssemblyReference.cache
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.dll
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.pdb

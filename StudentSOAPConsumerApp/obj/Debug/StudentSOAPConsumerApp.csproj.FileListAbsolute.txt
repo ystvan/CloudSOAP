@@ -1,0 +1,8 @@
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.Form1.resources
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.Properties.Resources.resources
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.csproj.GenerateResource.Cache
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\bin\Debug\StudentSOAPConsumerApp.exe.config
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\bin\Debug\StudentSOAPConsumerApp.exe
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\bin\Debug\StudentSOAPConsumerApp.pdb
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.exe
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.pdb

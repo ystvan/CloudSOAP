@@ -61,6 +61,7 @@
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(247, 20);
             this.nameTextBox.TabIndex = 2;
+            this.nameTextBox.TextChanged += new System.EventHandler(this.nameTextBox_TextChanged);
             // 
             // addressTextBox
             // 
@@ -68,6 +69,7 @@
             this.addressTextBox.Name = "addressTextBox";
             this.addressTextBox.Size = new System.Drawing.Size(244, 20);
             this.addressTextBox.TabIndex = 3;
+            this.addressTextBox.TextChanged += new System.EventHandler(this.addressTextBox_TextChanged);
             // 
             // label1
             // 
@@ -104,6 +106,7 @@
             this.addButton.TabIndex = 7;
             this.addButton.Text = "Add Student";
             this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // Form1
             // 
@@ -118,7 +121,7 @@
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.cprTextBox);
             this.Controls.Add(this.studentListView);
-            this.Name = "Form1";
+            //this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.studentListView)).EndInit();
             this.ResumeLayout(false);
