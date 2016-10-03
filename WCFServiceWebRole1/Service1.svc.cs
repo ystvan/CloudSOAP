@@ -31,14 +31,16 @@ namespace WCFServiceWebRole1
 
         public void RemoveStudent(IStudent student)
         {
+            //TODO:implement for DB
             //_dbContexStudentModel.Students.Local.Remove(student);
         }
 
         public void EditStudent(IStudent student)
         {
-            IStudent s = FindStudent(student.CprNo);
-            s.Address = student.Address;
-            s.Name = student.Name;
+            //TODO:implement for DB
+            //IStudent s = FindStudent(student.CprNo);
+            //s.Address = student.Address;
+            //s.Name = student.Name;
         }
     }
 }
