@@ -53,6 +53,7 @@
             this.cprTextBox.Name = "cprTextBox";
             this.cprTextBox.Size = new System.Drawing.Size(247, 20);
             this.cprTextBox.TabIndex = 1;
+            this.cprTextBox.TextChanged += new System.EventHandler(this.cprTextBox_TextChanged);
             // 
             // nameTextBox
             // 

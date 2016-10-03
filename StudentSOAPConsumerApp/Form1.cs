@@ -16,5 +16,10 @@ namespace StudentSOAPConsumerApp
         {
             InitializeComponent();
         }
+
+        private void cprTextBox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
