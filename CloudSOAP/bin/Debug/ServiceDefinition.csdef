@@ -25,7 +25,7 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\CloudSOAP\rcf\Debug\WCFServiceWebRole1Content\" />
+        <SourceDirectory path="C:\Users\IstvanMarki\Documents\Visual Studio 2015\Projects\CloudSOAP\CloudSOAP\rcf\Debug\WCFServiceWebRole1Content\" />
       </Content>
     </Contents>
   </WebRole>

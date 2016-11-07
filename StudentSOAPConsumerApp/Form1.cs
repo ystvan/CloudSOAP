@@ -24,6 +24,7 @@ namespace StudentSOAPConsumerApp
         public Form1()
         {
             InitializeComponent();
+            studentListView.DataSource = studentClient.GetAllStudents();
         }
 
         private void cprTextBox_TextChanged(object sender, EventArgs e)

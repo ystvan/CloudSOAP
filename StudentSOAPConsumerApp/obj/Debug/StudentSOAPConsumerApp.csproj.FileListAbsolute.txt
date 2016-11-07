@@ -6,3 +6,4 @@ C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAP
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\bin\Debug\StudentSOAPConsumerApp.pdb
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.exe
 C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.pdb
+C:\Users\IstvanMarki\documents\visual studio 2015\Projects\CloudSOAP\StudentSOAPConsumerApp\obj\Debug\StudentSOAPConsumerApp.csprojResolveAssemblyReference.cache
